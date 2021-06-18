@@ -1,2 +1,3 @@
-# WebTinTuc
-Trang web có chức năng cập nhật và đọc tin tức
+# ANH48.github.io
+
+Thay đổi tên database ở file config.php 

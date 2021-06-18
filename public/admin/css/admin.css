@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container2{
+    width: 98%;
+    margin: 0 auto;
+}
+.menu-left{
+    float: left;
+    background-color: rgba(9, 9, 12, 0.716);
+    width: 15%;
+    height: 100%;
+    padding-bottom: 40%;
+    position: fixed;
+}
+.header-right{
+    float: left;
+    margin-left: 15%;
+    width: 85%;
+} /* chỗ này còn responsive*/
+.brand-link{
+    display: inline-block;
+    margin:30px;
+}
+.menu-top{
+    border-bottom: 2px  solid rgb(170, 167, 167);
+}
+.menu-top a{
+    text-decoration: none;
+    color: white;
+}
+.brand-image{
+    height: 40px;
+    width: 40px;
+}
+.brand-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+/*           menu home                  */
+.menu-home{
+    padding-top: 15%;
+}
+.menu-home a{
+    text-decoration: none;
+    padding-left: 2rem;
+    margin-bottom: 3%;
+}
+.menu-home ul li a{
+    list-style-type: none;
+    display: block;
+}
+#tieude, #thanhvien,#quangcao,#noidung{
+    display: none;
+}
+.menu-home ul li a:hover{
+    background-color: rgb(5, 138, 254);
+}
+.mp-level ul li a:hover{
+    background-color: rgb(5, 138, 254);
+}
+.mp-level ul {
+    background-color:  rgba(194, 192, 192, 0.922);
+    margin-top: -4%;
+}
+.mp-level ul li a{
+    padding: 0.5rem 0 0.5rem 4rem;
+}
+.icon a{
+    color: rgba(190, 186, 186, 0.805);
+    font-size: 24px;
+}
+.mp-level a{
+    color: rgba(246, 246, 246, 0.922);
+    font-size: 20px;
+}
+/* phần bên phải nè*/
+.header{
+    background-color: whitesmoke;
+    height: 40px;
+    border-bottom: 1px solid rgba(194, 192, 192, 0.922);
+    padding-top: 10px;
+}
+.title_left{
+    float: left;
+    width: 70%;
+    vertical-align: middle;
+}
+.title_right{
+    float: right;
+    width: 30%;
+}
+.thongbao-message{
+    display: flex;
+    margin-left: 50%;
+}
+.logo_home{
+    font-size: 20px;
+}
+.thongbao-message button{
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+.home{
+    margin-left: 20px;
+}
+.title_left a{
+    text-decoration: none;
+    color: rgb(91, 90, 90);
+}
+.title_left a:hover,.thongbao-message a:hover, .thongbao-message button:hover{
+    color: #000;
+    font-size: 30px;
+}
+.thongbao-message a{
+    font-size: 26px;
+    color: rgb(91, 90, 90);
+    margin-left: 20px;
+    text-decoration: none;
+}
+/* content_chil*/
+.content{
+    margin-top: 4%;
+    border-bottom: 1px solid rgba(194, 192, 192, 0.922);
+    padding-bottom: 5%;
+}
+.trangchu{
+    font-weight: 700;
+    font-size: 30px;
+}
+.row{
+    display: flex;
+    margin-top: 3%;
+}
+.bg_info{
+    background-color: #14b2ca;
+    color: white;
+}
+.small-box-footer{
+    background-color: #056f80;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 35%;
+    padding-right: 35%;
+    border-radius: 12px;
+}
+.detail_title a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.detail_title a:hover{
+    color: #000;
+}
+.detail_title{
+    width: 300px;
+    height: 110px;
+    padding: 10px;
+    border-radius: 12px;
+    margin-right: 2%;
+}
+.inner{
+    font-weight: 500;
+    font-size: 24px;
+    float: left;
+    width: 70%;
+}
+.icon-content{
+    font-weight: 500;
+    font-size: 58px;
+    color: #c3c6c9;
+    float: left;
+    width: 30%;
+}
+.big_ad i{
+    font-size: 65px;
+}
+.big_ad i:hover{
+    font-size: 77px !important;
+    transition: transform .3s linear;
+}
+.box_x{
+    margin-bottom: 28%;
+}
+.hover_tieude:hover{
+    -moz-box-shadow: inset 0 0 5px #555454;
+    -webkit-box-shadow: inset 0 0 5px #555454;
+    box-shadow: inset 0 0 5px #555454;
+}
+.detail_title .icon-content>i:hover{
+    font-size: 70px;
+    right: 15px;
+    top: 15px;
+    transition: transform .3s linear;
+}
+/*NOi dung*/
+.green {
+    background-color: #10dc9f;
+    color: white;
+}
+.green2{
+    background-color: #0a7756;
+}
+.red {
+    background-color: rgb(236, 20, 20);
+    color: white;
+}
+.red2{
+    background-color:rgb(139, 5, 5);
+}
+.yellow {
+    background-color: rgb(255, 128, 0);
+    color: white;
+}
+.yellow2{
+    background-color: rgb(173, 91, 20);
+}
+/*footer*/
+.footer{
+    margin-top: 3%;
+}
+/*TIêu đề*/
+.List_title p{
+    font-size: 20px;
+}
+.form_add{
+    margin-top: 5%;
+    text-align: right;
+}
+.add{
+    background-color: #2196f3;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin-top: 2%;
+}
+.add:hover{
+    background-color: #0069c0;
+    cursor: copy;
+}
+.delete{
+    background-color: #f51e06;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin-top: 2%;
+}
+.delete:hover{
+    background-color: #be2918;
+    cursor: not-allowed;
+}
+.add_noidung{
+    background-color: #2196f3;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin-top: 2%;
+}
+form{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.txt{
+    width: 98%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid rgba(194, 192, 192, 0.922);
+}
+/*USERS*/
+.user input{
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 2%;
+}
+.user{
+    margin-top: 2%;
+}
+.input_left{
+    float: left;
+    width: 20%;
+}
+.input_right{
+    float: left;
+    width: 80%;
+}
+/*Noi dung*/
+.noidung input{
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.noidung{
+    margin-top: 2%;
+}
+.noidung textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.noidung_add{
+    margin-left: -5%;
+}
+/* avatar*/
+.table tbody tr th{
+    text-align: left;
+}
+.avataruser{
+    width: 80%;
+    text-align: center;
+}
+.avataruser table {
+    width: 1224px;
+}
+.avataruser tr{
+    height: 170px;
+}
+.avataruser table th, .avataruser table td{
+    border: 1px solid black;
+}
+.avataruser table th{
+    background-color: rgb(190, 188, 188 ,0.8);
+}
+.avataruser table td{
+    text-align: left;
+}
+.img_avatar{
+    width: 45%;
+    margin: 0 auto;
+    height: 100px;
+    background-color: rgb(143, 140, 140);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
